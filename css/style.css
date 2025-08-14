@@ -81,12 +81,12 @@ body {
         border-width: 1px;
     }
 
-.limpiarStorage {
-    margin-top: 50%;
-    padding: 10px 20px;
-    background-color: #f44336;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+    .limpiarStorage {
+        margin-top: 50%;
+        padding: 10px 20px;
+        background-color: #f44336;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }

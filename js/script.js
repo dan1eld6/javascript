@@ -71,14 +71,14 @@ retirarAuto.onclick = () => {
         pMensaje.textContent = "Ingrese una patente"
     }
     else {
-        let cocheraOcupada = cocheras.find(c => c.patente === patente);
+        let cocheraOcupada = cocheras.find(c => c.patente === patente)
 
         if (!cocheraOcupada) {
-            pMensaje.textContent = "Patente no encontrada";
+            pMensaje.textContent = "Patente no encontrada"
         }
         else {
-            cocheraOcupada.patente = "";
-            cocheraOcupada.disponible = true;
+            cocheraOcupada.patente = ""
+            cocheraOcupada.disponible = true
         pMensaje.textContent = "Vehiculo con patente " + patente + " se retira."
         datoPatente.value = ""
         guardarCocheras()

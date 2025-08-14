@@ -1,0 +1,82 @@
+body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        height: 100vh;
+        margin: 0;
+        background: #f4f4f4;
+    }
+
+    .cocheras {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        padding: 10px;
+    }
+
+    .cochera {
+        width: 100%;
+        height: 80px;
+        margin: 10px 0;
+        background-color: #8BC34A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.3s;
+    }
+
+    .ocupada {
+        background-color: #F44336;
+    }
+
+    .panel {
+        flex: 1;
+        background: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-left: 2px solid #ccc;
+        border-right: 2px solid #ccc;
+    }
+
+    input {
+        padding: 8px;
+        margin: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        padding: 8px 12px;
+        margin: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #2196F3;
+        color: white;
+        transition: background 0.3s;
+    }
+
+    button:hover {
+        background-color: #005397;
+    }
+
+    .mensaje {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #000000;
+        height: 50px;   
+        width: 100%;
+        text-align: center;
+        border-color: #005397;
+        border-style: solid;
+        border-width: 1px;
+    }

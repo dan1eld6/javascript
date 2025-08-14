@@ -41,6 +41,7 @@ function mostrarCocheras() {
         }
     })
 }
+
 mostrarCocheras();
 
 ingresarAuto.onclick = () => {
@@ -84,6 +85,12 @@ retirarAuto.onclick = () => {
         mostrarCocheras()
         }
     }
+}
+
+// Limpiar localStorage
+document.getElementById("limpiarStorage").onclick = () => {
+localStorage.removeItem("cocheras") 
+mostrarCocheras()
 }
 
 //Menu de inicio

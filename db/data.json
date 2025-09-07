@@ -1,0 +1,146 @@
+[
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "compacto",
+        "tarifa": 100,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 1
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "compacto",
+        "tarifa": 100,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 2
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "compacto",
+        "tarifa": 100,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 3
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "sedan",
+        "tarifa": 150,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 4
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "sedan",
+        "tarifa": 150,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 5
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "sedan",
+        "tarifa": 150,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 6
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "moto",
+        "tarifa": 50,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 7
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "moto",
+        "tarifa": 50,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 8
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "moto",
+        "tarifa": 50,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 9
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "moto",
+        "tarifa": 50,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 10
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "suv",
+        "tarifa": 200,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 11
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "suv",
+        "tarifa": 200,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 12
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "suv",
+        "tarifa": 200,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 13
+    },
+    {
+        "patente": "EN REPARACION",
+        "disponible": false,
+        "tipo": "camioneta",
+        "tarifa": 250,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 14
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "camioneta",
+        "tarifa": 250,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 15
+    },
+    {
+        "patente": "",
+        "disponible": true,
+        "tipo": "camioneta",
+        "tarifa": 250,
+        "horaIngreso": 0,
+        "horaEgreso": 0,
+        "id": 16
+    }
+]

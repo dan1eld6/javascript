@@ -5,28 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="./js/script.js"></script>
+    <script defer src="./js/movimientoAutos.js"></script>
+    <script defer src="./js/limpiarStorage.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Estacionamiento</title>
 </head>
 
 <body>
-    <div class="cocheras" id="izquierda">
+    <div class="cocheras" id="izquierda"></div>
 
+    <div class="centro">
+        <div class="cocheras" id="central"></div>
+        <div class="panel">
+            <h1>Bienvenido a Estacionamiento "EL MINUTO"</h1>
+            <input type="text" id="patente" placeholder="Ingrese patente" maxlength="7">
+            <!-- <label for="tipoVehiculo">Tipo de vehículo:</label> -->
+            <select id="tipoVehiculo">
+                <option value="">Seleccione tipo vehículo</option>
+                <option value="moto">Moto</option>
+                <option value="compacto">Compacto</option>
+                <option value="sedan">Sedán</option>
+                <option value="suv">SUV</option>
+                <option value="camioneta">Camioneta</option>
+            </select>
+            <div class="botones">
+                <button id="ingresarAuto">Ingresar Vehículo</button>
+                <button id="retirarAuto">Retirar Vehículo</button>
+            </div>
+            <div class="tarifas">
+                <h2>Tarifas por hora:</h2>
+                <h3>Se paga hasta por minuto. <br> Solo paga el tiempo que ocupa</h3>
+                <ul>
+                    <li>Moto: $50</li>
+                    <li>Compacto: $100</li>
+                    <li>Sedán: $150</li>
+                    <li>SUV: $200</li>
+                    <li>Camioneta: $250</li>
+                </ul>
+            </div>
+            <div class="botonesExtra">
+                <button id="limpiarStorage" class="limpiarStorage">vaciar cocheras</button>
+                <button>moficicar cocheras</button>
+            </div>
+        </div>
     </div>
+    <div class="cocheras" id="derecha"></div>
 
-    <div class="panel">
-        <h2>Gestión de Estacionamiento</h2>
-        <input type="text" id="patente" placeholder="Ingrese patente">
-        <button id="ingresarAuto">Ingresar Vehículo</button>
-        <button id="retirarAuto">Retirar Vehículo</button>
-        <p class="mensaje" id="pMensaje"></p>
-        <button id="limpiarStorage" class="limpiarStorage">vaciar cocheras</button>
-    </div>
-
-    <div class="cocheras" id="derecha">
-
-    </div>
-
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

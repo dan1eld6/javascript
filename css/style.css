@@ -9,7 +9,7 @@ body {
     .cocheras {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center;;
         flex: 1;
         padding: 10px;
     }
@@ -17,11 +17,12 @@ body {
     .cochera {
         width: 100%;
         height: 80px;
-        margin: 10px 0;
+        margin: 10px 5px;
         background-color: #8BC34A;
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
         border-radius: 8px;
         color: white;
         font-weight: bold;
@@ -30,27 +31,63 @@ body {
     }
 
     .ocupada {
+        
         background-color: #F44336;
     }
 
-    .panel {
-        flex: 1;
-        background: white;
-        padding: 20px;
+    .centro {
         display: flex;
         flex-direction: column;
+        flex: 2;
+        
+        border-left: 2px solid #ccc;
+        border-right: 2px solid #ccc;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+        font-size: 26px;
+        /* margin: 0px 0 20px 0; */
+    }
+    #central {
+        flex-direction: row;
+
+        /* display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 20% 20% 20% 20%; */
+    } 
+
+
+    .panel {
+        /* flex: 1; */
+        background: white;
+        padding: 10px;
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
         border-left: 2px solid #ccc;
         border-right: 2px solid #ccc;
     }
 
     input {
-        padding: 8px;
-        margin: 5px;
-        font-size: 16px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: 5px solid #ccc;
+        text-align: center;
+    }
+
+    #tipoVehiculo {
+        padding: 10px;
+        margin: 15px;
+        font-size: 20px;
         border-radius: 5px;
         border: 1px solid #ccc;
+        width: 45%;
     }
 
     button {
@@ -65,11 +102,19 @@ body {
         transition: background 0.3s;
     }
 
+    .botones {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
     button:hover {
         background-color: #005397;
     }
 
-    .mensaje {
+    /* .mensaje {
         margin-top: 10px;
         font-size: 18px;
         color: #000000;
@@ -79,14 +124,17 @@ body {
         border-color: #005397;
         border-style: solid;
         border-width: 1px;
-    }
+    } */
 
     .limpiarStorage {
-        margin-top: 50%;
-        padding: 10px 20px;
         background-color: #f44336;
         color: white;
         border: none;
         border-radius: 5px;
         cursor: pointer;
+    }
+
+    .tarifas{
+        justify-content: center;
+        text-align: center;
     }
